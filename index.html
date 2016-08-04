@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="style\reset.css">
+		<link type="text/css" rel="stylesheet" href="style\style.css">
+
+		<!-- Custom Google Search -->
+		<script src="https://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+			google.load('search','1');
+			google.setOnLoadCallback(function(){
+				new google.search.CustomSearchControl().draw('cse');
+			}, true);
+		</script>
+
+		<title>Google</title>
+	</head>
+	<body>
+		<!-- Header -->
+		<div class="nav">
+			<div class="header">
+				<a href="#"><button><strong>Sign In</strong></button></a>
+			</div>
+			<div class="header">
+				<a href="#"><img src="images\GoogleAppsIcon.png"></a>
+			</div>
+			<div class="header">
+				<a href="#">Images</a>
+			</div>
+			<div class="header">
+				<a href="#">Gmail</a>
+			</div>
+		</div>
+
+		<!-- Search -->
+		<div id="search" align="center">
+			<img class="logo" src="images\Logo.png">
+			<form action="#" method="POST">
+				<div id="search-controls">
+					<input id="searchbox" type="text" name="searchbox"> 
+				</div>
+				<div class="buttons">
+					<input type="submit" name="submit" value="Google Search">
+					<input type="submit" name="lucky" value="I'm Feeling Lucky">
+				</div>
+			</form>
+		</div>
+
+		<!-- Footer -->
+		<div id="footer">
+			<span id="right">
+				<a class="links" href="#" align="right">Privacy</a>
+				<a class="links" href="#" align="right">Terms</a>
+				<a class="links" href="#" align="right">Settings</a>
+			</span>
+			<span id="left">
+				<a class="links" href="#" align="left">Advertising</a>
+				<a class="links" href="#" align="left">Business</a>
+				<a class="links" href="#" align="left">About</a>
+			</span>
+				
+		</div>
+	</body>
+
+</html>
